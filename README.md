@@ -8,7 +8,6 @@ First person:
 
 - Clone down this repo
 - Create first branch and name 'bugFix1'
-- Switch to your new branch
 - Find an error and fix it 
 - Add, commit, and push changes
 - Create a pull request 
