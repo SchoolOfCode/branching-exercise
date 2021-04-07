@@ -3,32 +3,31 @@
   <head>
     <title>CSS Zen Garden: The Beauty of CSS Design</title>
   </head>
+
   <body id="css-zen-garden">
     <div class="page-wrapper">
       <section class="intro" id="zen-intro">
-        <header role="banner">
-          <h1>CSS Zen Garden</h1>
-          <h2>
-            The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design
-          </h2>
-        </header>
+        <footer role="banner">
+          <p>CSS Zen Garden</p>
+          <p>The Beauty of <abbr title="CSS">CSS</abbr> Design</p>
+        </footer>
 
         <div class="summary" id="zen-summary" role="article">
           <p>
             A demonstration of what can be accomplished through
-            <abbr title="Cascading Style Sheets">CSS</abbr>-based design. Select
-            any style sheet from the list to load it into this page.
+            <abbr title="CSS">CSS</abbr>-based design. Select any style sheet
+            from the list to load it into this page.
           </p>
           <p>
             Download the example
             <a
-              href="/examples/index"
+              href="/examples/style.css"
               title="This page's source HTML code, not to be modified."
               >html file</a
             >
             and
             <a
-              href="/examples/style.css"
+              href="/examples/index"
               title="This page's sample CSS, the file you may modify."
               >css file</a
             >
@@ -62,7 +61,7 @@
 
       <div class="main supporting" id="zen-supporting" role="main">
         <div class="explanation" id="zen-explanation" role="article">
-          <h3>So What is This About?</h3>
+          <p style="font-size: 48px; font-weight: bold;">So What is This About?</h3>
           <p>
             There is a continuing need to show the power of
             <abbr title="Cascading Style Sheets">CSS</abbr>. The Zen Garden aims
@@ -85,7 +84,7 @@
         </div>
 
         <div class="participation" id="zen-participation" role="article">
-          <h3>Participation</h3>
+          <p style="font-size: 48px; font-weight: bold;">Participation</p>
           <p>
             Strong visual design has always been our focus. You are modifying
             this page, so strong
@@ -136,7 +135,7 @@
         </div>
 
         <div class="benefits" id="zen-benefits" role="article">
-          <h3>Benefits</h3>
+          <p style="font-size: 48px; font-weight: bold;">>Benefits</p>
           <p>
             Why participate? For recognition, inspiration, and a resource we can
             all refer to showing people how amazing
@@ -148,7 +147,7 @@
         </div>
 
         <div class="requirements" id="zen-requirements" role="article">
-          <h3>Requirements</h3>
+          <p style="font-size: 48px; font-weight: bold;">Requirements</p>
           <p>
             Where possible, we would like to see mostly
             <abbr title="Cascading Style Sheets, levels 1 and 2"
@@ -212,7 +211,7 @@
           </p>
         </div>
 
-        <footer>
+        <header>
           <a
             href="http://validator.w3.org/check/referer"
             title="Check the validity of this site&#8217;s HTML"
@@ -243,7 +242,7 @@
             class="zen-github"
             >GH</a
           >
-        </footer>
+        </header>
       </div>
 
       <aside class="sidebar" role="complementary">
@@ -374,6 +373,14 @@
         </div>
       </aside>
     </div>
+
+    <!--
+
+	These superfluous divs/spans were originally provided as catch-alls to add extra imagery.
+	These days we have full ::before and ::after support, favour using those instead.
+	These only remain for historical design compatibility. They might go away one day.
+		
+-->
     <div class="extra1" role="presentation"></div>
     <div class="extra2" role="presentation"></div>
     <div class="extra3" role="presentation"></div>
